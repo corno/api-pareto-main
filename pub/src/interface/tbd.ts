@@ -17,3 +17,5 @@ export type ProgramMain = (
         setExitCodeToFailed: () => void
     }
 ) => void
+
+export type StartAsync = ($: pt.AsyncNonValue) => void
