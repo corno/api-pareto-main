@@ -1,0 +1,21 @@
+{
+  "author": "Corno",
+  "description": "main function signature",
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "api-pareto-main",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/corno/api-pareto-main.git"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.1.0",
+  "dependencies": {
+    "pareto-core-types": "^0.2.0"
+  },
+  "interface-fingerprint": "bfcc4778cdaf9c7ee96257c5ae2d185140c13b29",
+  "content-fingerprint": "994e966bf7aa9661b18fdf6754d5a2956f1c5f2b"
+}
