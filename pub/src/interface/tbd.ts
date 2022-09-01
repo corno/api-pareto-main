@@ -14,5 +14,6 @@ export type ProgramMain = (
     },
     $d: {
         startAsync: ($: pt.AsyncNonValue) => void
+        setExitCodeToFailed: () => void
     }
 ) => void
