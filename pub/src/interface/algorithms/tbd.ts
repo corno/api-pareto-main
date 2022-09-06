@@ -4,7 +4,7 @@ import { TArguments } from "../types/x"
 
 export type XStartAsync = ($: pt.AsyncNonValue) => void
 
-export type XProgramMain = (
+export type PProgramMain = (
     $: {
         arguments: TArguments
     },
