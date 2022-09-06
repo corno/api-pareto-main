@@ -5,12 +5,12 @@ import { TArguments } from "../types/x"
 
 export type PProgramMain = (
     $: {
-        arguments: TArguments
+        readonly "arguments": TArguments
     },
     $i: {
-        stdout: IWriteStream
-        stderr: IWriteStream
-        setExitCodeToFailed: ISetExitCodeToFailed
+        readonly "stdout": IWriteStream
+        readonly "stderr": IWriteStream
+        readonly "setExitCodeToFailed": ISetExitCodeToFailed
     },
     $a: pt.ProcessAsyncValue
 ) => void
