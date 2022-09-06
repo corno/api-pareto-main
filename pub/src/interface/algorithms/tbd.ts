@@ -2,7 +2,6 @@ import * as pt from "pareto-core-types"
 import { ISetExitCodeToFailed, IWriteStream } from "../interfaces/x"
 import { TArguments } from "../types/x"
 
-export type XStartAsync = ($: pt.AsyncNonValue) => void
 
 export type PProgramMain = (
     $: {
@@ -11,10 +10,8 @@ export type PProgramMain = (
     $i: {
         stdout: IWriteStream
         stderr: IWriteStream
-    },
-    $d: {
-        startAsync: XStartAsync
         setExitCodeToFailed: ISetExitCodeToFailed
-    }
+    },
+    $a: pt.ProcessAsyncValue
 ) => void
 
