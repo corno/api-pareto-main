@@ -1,9 +1,9 @@
 import * as pt from "pareto-core-types"
-import { ISetExitCodeToFailed, IWriteStream } from "../interfaces/x"
-import { TArguments } from "../types/x"
+import { ISetExitCodeToFailed, IWriteStream } from "../interfaces/interfaces.p"
+import { TArguments } from "../types/types.p"
 
 
-export type PProgramMain = (
+export type FProgramMain = (
     $: {
         readonly "arguments": TArguments
     },

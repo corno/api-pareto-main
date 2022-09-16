@@ -1,3 +1,3 @@
-export * from "./algorithms/tbd"
-export * from "./types/x"
-export * from "./interfaces/x"
+export * from "./functions/functions.p"
+export * from "./types/types.p"
+export * from "./interfaces/interfaces.p"
